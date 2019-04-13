@@ -14,7 +14,7 @@ gem install nokogiri
 ## Use
 From the LibScraper directory, run as follows for basic functionality:
 <code>ruby search.rb [URL] [SEARCH TERM]</code>. \
-<code>ruby search.rb https://catalog.hathitrust.org/Record/000496214 [SEARCH TERM]
+<code>ruby search.rb https://catalog.hathitrust.org/Record/000496214 [SEARCH TERM]</code>
 
 <code>URL</code> Should be a HathiTrust link to a magazine. [Example](https://catalog.hathitrust.org/Record/000496214).
 
