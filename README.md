@@ -1,6 +1,7 @@
 # LibScraper
 ## Installation
-LibScraper requires [Ruby](https://www.ruby-lang.org/en/downloads/) and [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html). Copy and paste line-by-line to the console (Terminal).
+LibScraper requires [Ruby](https://www.ruby-lang.org/en/downloads/) and [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html). Ruby is installed by default on macOS.\
+To install Nokogiri, copy and paste line-by-line to the console (Terminal).
 
 ````
 git clone https://github.com/alecmagnani/LibScraper  
