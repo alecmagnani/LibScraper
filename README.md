@@ -1,6 +1,6 @@
 # LibScraper
 ## Installation
-LibScraper requires [Ruby](https://www.ruby-lang.org/en/downloads/) and [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html). Copy and paste line-by-line to the Terminal.
+LibScraper requires [Ruby](https://www.ruby-lang.org/en/downloads/) and [Nokogiri](https://nokogiri.org/tutorials/installing_nokogiri.html). Copy and paste line-by-line to the console (Terminal).
 
 ````
 git clone https://github.com/alecmagnani/LibScraper  
@@ -26,5 +26,6 @@ The search can be limited by start year and end year with the <code>-s</code> an
 
 Output is in the form of URLs, and can be saved to a file using macOS/Linux redirects:\
 <code>ruby search.rb [URL] [TERM] -s 1830 -e 1847 > my_search.txt</code>
+By default, URLs containing the one or more of the search terms will be printed to the console.
 
 The program can take a while to run. If you are saving to a file as shown above, there will not be any visual indication of the search being completed. Either way, the search can be stopped early by pressing <code>CTRL+C</code>.
