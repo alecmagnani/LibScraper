@@ -13,9 +13,10 @@ gem install nokogiri
 
 ## Use
 From the LibScraper directory, run as follows for basic functionality:
-<code>ruby search.rb [URL] [SEARCH TERM]</code>
+<code>ruby search.rb [URL] [SEARCH TERM]</code>. \
+<code>ruby search.rb https://catalog.hathitrust.org/Record/000496214 [SEARCH TERM]
 
-<code>[URL]</code> Should be a HathiTrust link to a magazine. [Example](https://catalog.hathitrust.org/Record/000496214).
+<code>URL</code> Should be a HathiTrust link to a magazine. [Example](https://catalog.hathitrust.org/Record/000496214).
 
 Multiple terms can be used by enclosing them in quotations and separating by commas:\
 <code>ruby search.rb [URL] "Term1, Term2, Term3"</code>
